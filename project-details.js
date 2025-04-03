@@ -193,7 +193,7 @@ function getAllProjects() {
       id: 1,
       title: "Health Tracking Dashboard",
       description: "Real-time dashboard for monitoring health metrics with data visualization",
-      image: "https://via.placeholder.com/500x300?text=Project+2",
+      image: "public/health management.jpg",
       tags: ["React", "D3.js", "Firebase", "Tailwind CSS"],
       fullDescription: `
         <p>The Health Tracking Dashboard is a web application that allows users to monitor various health metrics in real-time. It provides intuitive data visualization and personalized insights to help users track their health progress.</p>
@@ -249,7 +249,7 @@ function getAllProjects() {
       id: 3,
       title: "Mobile Banking App",
       description: "Secure mobile banking application with biometric authentication and transaction history",
-      image: "https://via.placeholder.com/500x300?text=Project+4",
+      image: "public/mobile banking.jpg",
       tags: ["JavaScript", "HTML/CSS", "Node.js", "OAuth"],
       fullDescription: `
         <p>The Mobile Banking App is a secure and user-friendly application that allows users to manage their finances on the go. It includes features such as account management, fund transfers, bill payments, and transaction history.</p>
@@ -277,7 +277,7 @@ function getAllProjects() {
       id: 4,
       title: "AI Content Generator",
       description: "Web application that leverages AI to generate marketing content and social media posts",
-      image: "https://via.placeholder.com/500x300?text=Project+5",
+      image: "public/ai.jpg",
       tags: ["Python", "Flask", "OpenAI API", "JavaScript"],
       fullDescription: `
         <p>The AI Content Generator is a web application that helps marketers and content creators generate high-quality content using artificial intelligence. It can create blog posts, social media content, product descriptions, and more with minimal input from the user.</p>
