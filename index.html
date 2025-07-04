@@ -7,12 +7,31 @@
   <meta name="description" content="Portfolio of Ray Onyango, a software developer and cybersecurity specialist with ICS2 certification.">
   <link rel="stylesheet" href="styles.css">
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
-  <!-- Add favicon -->
   <link rel="icon" type="image/png" href="favicon.png">
+  <style>
+    html, body {
+      min-height: 100dvh;
+      overflow-x: hidden;
+      overflow-y: auto;
+      -webkit-overflow-scrolling: touch;
+    }
+    .dot-background {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100vw;
+      height: 100vh;
+      z-index: 0;
+      pointer-events: none;
+    }
+    .content {
+      position: relative;
+      z-index: 1;
+    }
+  </style>
 </head>
 <body>
   <canvas id="dotBackground" class="dot-background"></canvas>
-  
   <div class="content">
     <!-- Header -->
     <header class="header container">
