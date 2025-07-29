@@ -163,31 +163,34 @@ function getAllProjects() {
   return [
     {
       id: 0,
-      title: "E-Commerce API",
-      description: "RESTful API for e-commerce with authentication, payment processing, and order management",
-      image: "public/e commerce.jpg",
-      tags: ["Node.js", "Express", "MongoDB", "JWT"],
+      title: "Password Cracker",
+      description: "A powerful, extensible password hash cracker with CLI and GUI support",
+      image: "public/password cracker.jpg",
+      tags: ["python", "shell", "Markdown"],
       fullDescription: `
-        <p>This project is a comprehensive RESTful API designed for e-commerce applications. It provides a robust backend solution with features including user authentication, product management, shopping cart functionality, order processing, and payment integration.</p>
+        <p>Password Cracker is a Python-based security tool designed to audit password strength by attempting to crack hashed passwords using both dictionary (wordlist) attacks and brute-force methods. Built with extensibility in mind, it supports a variety of hashing algorithms and includes both a command-line interface (CLI) and a graphical user interface (GUI) for ease of use.
+
+This tool is intended strictly for ethical hacking, cybersecurity training, and controlled testing environments.</p>
         
         <h3>Key Features</h3>
         <ul>
-          <li>User authentication and authorization using JWT</li>
-          <li>Product catalog with categories, search, and filtering</li>
-          <li>Shopping cart management</li>
-          <li>Order processing and history</li>
-          <li>Payment gateway integration</li>
-          <li>Admin dashboard for inventory management</li>
+          <li>Supports Multiple Hash Algorithms</li>
+          <li>Wordlist + Brute-force Cracking</li>
+          <li>Batch Mode</li>
+          <li>Progress Tracking</li>
+          <li>Fully Terminal Operable</li>
+          <li>GUI (Tkinter + ttk)</li>
         </ul>
         
         <h3>Technical Details</h3>
-        <p>The API is built using Node.js and Express, with MongoDB as the database. It follows RESTful principles and includes comprehensive documentation using Swagger. The authentication system uses JSON Web Tokens (JWT) for secure access control.</p>
+        <p>Languages & Tools,Python 3 (Core logic),Shell (Bash) (Testing, GitOps),Tkinter + ttk (GUI),Markdown (Documentation).</p>
         
         <h3>Challenges and Solutions</h3>
-        <p>One of the main challenges was implementing a secure and scalable authentication system. This was solved by using JWT with refresh tokens and implementing proper error handling. Another challenge was optimizing database queries for performance, which was addressed by implementing indexing and pagination.</p>
+        <p>Challanges:Different hashes (e.g., bcrypt vs SHA256) require different methods for checking.</p>
+        <p>Solution:Created a modular algorithm dispatcher and fallback system to auto-detect or manually specify hash types.</p>
       `,
-      demoLink: "#",
-      githubLink: "#",
+      demoLink: "https://github.com/goldin-king/password-cracker",
+      githubLink: "https://github.com/goldin-king/password-cracker",
     },
     {
       id: 1,
