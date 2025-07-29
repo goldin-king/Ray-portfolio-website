@@ -329,35 +329,38 @@ This tool is intended strictly for ethical hacking, cybersecurity training, and 
         <h3>Challenges and Solutions</h3>
         <p>One of the main challenges was supporting a wide range of infrastructure providers and deployment targets. This was addressed by implementing a plugin architecture that allows for easy extension and customization. Another challenge was ensuring idempotent operations to prevent unintended changes, which was solved by implementing thorough state checking and dry-run capabilities.</p>
       `,
-      demoLink: "#",
-      githubLink: "#",
+      demoLink: "https://github.com/goldin-king/security-vulnerability-scanner",
+      githubLink: "https://github.com/goldin-king/security-vulnerability-scanner",
     },
-    {
-      id: 6,
-      title: "Security Vulnerability Scanner",
-      description:
-        "Automated security scanner that identifies vulnerabilities in web applications and provides remediation recommendations",
-      image: "public/vulnerability.jpg",
-      tags: ["Python", "Security", "Docker", "REST API"],
-      fullDescription: `
-    <p>The Security Vulnerability Scanner is an automated tool designed to identify security vulnerabilities in web applications. It performs comprehensive scans to detect common security issues such as SQL injection, cross-site scripting (XSS), CSRF, and other OWASP Top 10 vulnerabilities.</p>
-    
+      {
+  id: 6,
+  title: "Security Vulnerability Scanner",
+  description:
+    "Automated Python-based web vulnerability scanner with GUI, REST API, and PDF/CSV reporting. Built for local or Dockerized environments.",
+  image: "public/vulnerability.jpg",
+  tags: ["Python", "Flask", "Tkinter", "Docker", "REST API", "Security"],
+  fullDescription: `
+    <p>This Security Vulnerability Scanner is a complete tool for scanning websites for security flaws. Built in Python with a GUI frontend and REST API backend, it allows both technical and non-technical users to perform scans locally or through Docker containers.</p>
+
     <h3>Key Features</h3>
     <ul>
-      <li>Automated vulnerability scanning with customizable rules</li>
-      <li>Detailed vulnerability reports with severity ratings</li>
-      <li>Remediation recommendations and best practices</li>
-      <li>Integration with CI/CD pipelines for continuous security testing</li>
-      <li>API for integration with other security tools</li>
-      <li>Historical vulnerability tracking and trend analysis</li>
+      <li>Scans for common vulnerabilities: SQL Injection, XSS, CSRF, insecure headers, and HTTP methods</li>
+      <li>GUI built with Tkinter for local interaction</li>
+      <li>RESTful API for integration with automation tools or CI/CD</li>
+      <li>PDF and CSV export support for scan reports</li>
+      <li>Batch scanning and real-time progress tracking</li>
+      <li>Docker support for isolated and reproducible testing environments</li>
     </ul>
-    
+
     <h3>Technical Details</h3>
-    <p>The scanner is built with Python and uses a combination of static analysis, dynamic testing, and pattern matching to identify vulnerabilities. It's containerized with Docker for easy deployment and can be integrated into development workflows through its REST API.</p>
+    <p>The tool uses Python's standard and third-party libraries including <code>requests</code>, <code>Flask</code>, <code>tkinter</code>, <code>reportlab</code>, and <code>csv</code>. It features modular components for scanning, exporting, and API interaction. The web scanning engine uses form analysis, header/method inspection, and basic injection pattern testing.</p>
     
+    <p>The GUI uses <code>ttk</code> for styled widgets, while Docker support allows quick setup via <code>docker-compose</code>. Reports are generated as downloadable PDFs or CSVs for audit purposes.</p>
+
     <h3>Challenges and Solutions</h3>
-    <p>A significant challenge was minimizing false positives while ensuring comprehensive coverage of potential vulnerabilities. This was addressed by implementing a sophisticated scoring system and context-aware analysis. Another challenge was ensuring the scanner could handle modern web applications with complex JavaScript frameworks, which was solved by incorporating headless browser testing and JavaScript execution analysis.</p>
-  `,
+    <p>Integrating multiple components (CLI, GUI, API) without breaking flow required a modular design with shared logic. To reduce false positives in vulnerability detection, layered checks and HTTP response analysis were implemented. Docker networking and volume persistence were addressed with explicit service definitions in <code>docker-compose.yml</code>.</p>
+  `
+     ,
       demoLink: "#",
       githubLink: "#",
     },
