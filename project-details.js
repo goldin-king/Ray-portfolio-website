@@ -361,8 +361,8 @@ This tool is intended strictly for ethical hacking, cybersecurity training, and 
     <p>Integrating multiple components (CLI, GUI, API) without breaking flow required a modular design with shared logic. To reduce false positives in vulnerability detection, layered checks and HTTP response analysis were implemented. Docker networking and volume persistence were addressed with explicit service definitions in <code>docker-compose.yml</code>.</p>
   `
      ,
-      demoLink: "#",
-      githubLink: "#",
+      demoLink: "https://github.com/goldin-king/security-vulnerability-scanner",
+      githubLink: "https://github.com/goldin-king/security-vulnerability-scanner",
     },
     {
       id: 7,

@@ -224,10 +224,10 @@ function generateProjectsContent(container) {
   // Fetch projects from mock database
   const projects = [
     {
-      title: "E-Commerce API",
-      description: "RESTful API for e-commerce with authentication, payment processing, and order management",
-      image: "public/e commerce.jpg",
-      tags: ["Node.js", "Express", "MongoDB", "JWT"],
+      title: "Password Cracker",
+      description: "A powerful, extensible password hash cracker with CLI and GUI support",
+      image: "public/password cracker.jpg",
+      tags: ["python", "Shell", "Markdown"],
     },
     {
       title: "Health Tracking Dashboard",
@@ -236,10 +236,10 @@ function generateProjectsContent(container) {
       tags: ["React", "D3.js", "Firebase", "Tailwind CSS"],
     },
     {
-      title: "Inventory Management System",
-      description: "Full-stack inventory system with barcode scanning and automated reporting",
-      image: "public/inventory-management.jpg",
-      tags: ["JavaScript", "PostgreSQL", "Express", "TypeScript"],
+      title: "Security Vulnerability Scanner",
+      description: "Automated security scanner that identifies vulnerabilities in web applications",
+      image: "public/vulnerability.jpg",
+      tags: ["Python", "Security", "Docker", "Rest Api"],
     },
     {
       title: "Mobile Banking App",
