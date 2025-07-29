@@ -222,31 +222,35 @@ This tool is intended strictly for ethical hacking, cybersecurity training, and 
     },
     {
       id: 2,
-      title: "Inventory Management System",
-      description: "Full-stack inventory system with barcode scanning and automated reporting",
-      image: "public/Inventory-Management.jpg",
-      tags: ["JavaScript", "PostgreSQL", "Express", "TypeScript"],
-      fullDescription: `
-        <p>The Inventory Management System is a comprehensive solution for businesses to track and manage their inventory. It includes features such as barcode scanning, automated reporting, and integration with point-of-sale systems.</p>
-        
-        <h3>Key Features</h3>
-        <ul>
-          <li>Barcode scanning for quick product identification</li>
-          <li>Real-time inventory tracking</li>
-          <li>Automated purchase order generation</li>
-          <li>Sales and inventory analytics</li>
-          <li>Multi-location inventory management</li>
-          <li>User role management and access control</li>
-        </ul>
-        
-        <h3>Technical Details</h3>
-        <p>The system is built with a TypeScript/JavaScript stack, using Express for the backend API and PostgreSQL for the database. The frontend is developed with modern JavaScript frameworks, ensuring a responsive and intuitive user interface.</p>
-        
-        <h3>Challenges and Solutions</h3>
-        <p>Managing inventory across multiple locations presented a significant challenge, which was addressed by implementing a hierarchical data structure and location-specific permissions. Another challenge was ensuring data consistency during concurrent operations, which was solved by implementing transaction-based database operations and optimistic locking.</p>
-      `,
-      demoLink: "#",
-      githubLink: "#",
+     title: "Security Vulnerability Scanner",
+  description:
+    "Automated Python-based web vulnerability scanner with GUI, REST API, and PDF/CSV reporting. Built for local or Dockerized environments.",
+  image: "public/vulnerability.jpg",
+  tags: ["Python", "Flask", "Tkinter", "Docker", "REST API", "Security"],
+  fullDescription: `
+    <p>This Security Vulnerability Scanner is a complete tool for scanning websites for security flaws. Built in Python with a GUI frontend and REST API backend, it allows both technical and non-technical users to perform scans locally or through Docker containers.</p>
+
+    <h3>Key Features</h3>
+    <ul>
+      <li>Scans for common vulnerabilities: SQL Injection, XSS, CSRF, insecure headers, and HTTP methods</li>
+      <li>GUI built with Tkinter for local interaction</li>
+      <li>RESTful API for integration with automation tools or CI/CD</li>
+      <li>PDF and CSV export support for scan reports</li>
+      <li>Batch scanning and real-time progress tracking</li>
+      <li>Docker support for isolated and reproducible testing environments</li>
+    </ul>
+
+    <h3>Technical Details</h3>
+    <p>The tool uses Python's standard and third-party libraries including <code>requests</code>, <code>Flask</code>, <code>tkinter</code>, <code>reportlab</code>, and <code>csv</code>. It features modular components for scanning, exporting, and API interaction. The web scanning engine uses form analysis, header/method inspection, and basic injection pattern testing.</p>
+    
+    <p>The GUI uses <code>ttk</code> for styled widgets, while Docker support allows quick setup via <code>docker-compose</code>. Reports are generated as downloadable PDFs or CSVs for audit purposes.</p>
+
+    <h3>Challenges and Solutions</h3>
+    <p>Integrating multiple components (CLI, GUI, API) without breaking flow required a modular design with shared logic. To reduce false positives in vulnerability detection, layered checks and HTTP response analysis were implemented. Docker networking and volume persistence were addressed with explicit service definitions in <code>docker-compose.yml</code>.</p>
+  `
+     ,
+      demoLink: "https://github.com/goldin-king/security-vulnerability-scanner",
+      githubLink: "https://github.com/goldin-king/security-vulnerability-scanner",
     },
     {
       id: 3,
