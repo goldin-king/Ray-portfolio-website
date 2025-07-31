@@ -230,10 +230,10 @@ function generateProjectsContent(container) {
       tags: ["python", "Shell", "Markdown"],
     },
     {
-      title: "Health Tracking Dashboard",
-      description: "Real-time dashboard for monitoring health metrics with data visualization",
-      image: "public/health tracking.jpg",
-      tags: ["React", "D3.js", "Firebase", "Tailwind CSS"],
+      title: "Eco-crypto Genie",
+      description: "Crypo chatbot that provides eco-friendly cryptocurrency trading tips",
+      image: "public/eco crypto.jpg",
+      tags: ["Python", "Machine Learning", "API"],
     },
     {
       title: "Security Vulnerability Scanner",
