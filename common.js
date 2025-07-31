@@ -232,7 +232,7 @@ function generateProjectsContent(container) {
     {
       title: "Eco-crypto Genie",
       description: "Crypo chatbot that provides eco-friendly cryptocurrency trading tips",
-      image: "public/Eco crypto.jpg",
+      image: "public/eco crypto.jpg",
       tags: ["Python", "Machine Learning", "API"],
     },
     {
