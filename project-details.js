@@ -196,7 +196,7 @@ This tool is intended strictly for ethical hacking, cybersecurity training, and 
       id: 1,
       title: "Eco-crypto Genie",
       description: "EcoCryptoGenie is a simple yet powerful Python chatbot that helps users make eco-friendly and informed cryptocurrency investment decisions.",
-      image: "public/eco crypto.jpg",
+      image: "public/Eco crypto.jpg",
       tags: ["Python", "Machine Learning", "API"],
       fullDescription: `
         <p>EcoCryptoGenie is a simple yet powerful Python chatbot that helps users make eco-friendly and informed cryptocurrency investment decisions. It combines real-time crypto market data from the CoinGecko API with sustainability metrics to recommend coins based on trends, energy use, and long-term growth potential.</p>
