@@ -194,31 +194,31 @@ This tool is intended strictly for ethical hacking, cybersecurity training, and 
     },
     {
       id: 1,
-      title: "Health Tracking Dashboard",
-      description: "Real-time dashboard for monitoring health metrics with data visualization",
-      image: "public/health management.jpg",
-      tags: ["React", "D3.js", "Firebase", "Tailwind CSS"],
+      title: "Eco-crypto Genie",
+      description: "EcoCryptoGenie is a simple yet powerful Python chatbot that helps users make eco-friendly and informed cryptocurrency investment decisions.",
+      image: "public/eco crypto.jpg",
+      tags: ["Python", "Machine Learning", "API"],
       fullDescription: `
-        <p>The Health Tracking Dashboard is a web application that allows users to monitor various health metrics in real-time. It provides intuitive data visualization and personalized insights to help users track their health progress.</p>
+        <p>EcoCryptoGenie is a simple yet powerful Python chatbot that helps users make eco-friendly and informed cryptocurrency investment decisions. It combines real-time crypto market data from the CoinGecko API with sustainability metrics to recommend coins based on trends, energy use, and long-term growth potential.</p>
         
         <h3>Key Features</h3>
         <ul>
-          <li>Real-time data visualization using D3.js</li>
-          <li>User authentication and profile management</li>
-          <li>Customizable dashboard with drag-and-drop widgets</li>
-          <li>Goal setting and progress tracking</li>
-          <li>Data export and sharing capabilities</li>
-          <li>Mobile-responsive design</li>
+          <li>Real-time crypto data</li>
+          <li>Sustainability scores</li>
+          <li>Natural language understanding</li>
+          <li>Advice categories</li>
+          <li>Friendly and engaging personality</li>
+          <li>Disclaimer: Reminds users about the risks involved in crypto investing.</li>
         </ul>
         
         <h3>Technical Details</h3>
-        <p>The dashboard is built with React for the frontend, using Tailwind CSS for styling. Firebase provides the backend services, including authentication, real-time database, and cloud functions. D3.js is used for creating interactive and dynamic data visualizations.</p>
+        <p>The chat is build using Python anad use CoinGecko API to get data and present real time data to users.</p>
         
         <h3>Challenges and Solutions</h3>
-        <p>A significant challenge was ensuring the dashboard remained performant while handling real-time data updates. This was addressed by implementing efficient data structures and optimizing the rendering process. Another challenge was creating intuitive visualizations that could be understood by users with varying levels of data literacy, which was solved through iterative user testing and design refinements.</p>
+        <p>Not having realtime data but it was fixed by adding the api to the bot</p>
       `,
-      demoLink: "#",
-      githubLink: "#",
+      demoLink: "https://github.com/goldin-king/EcoCryptoGenie",
+      githubLink: "https://github.com/goldin-king/EcoCryptoGenie",
     },
     {
       id: 2,
