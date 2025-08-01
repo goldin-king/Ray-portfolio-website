@@ -184,7 +184,7 @@ function generateAboutContent(container) {
     
     <div class="about-grid">
       <div class="about-image">
-        <img src="public/pip.jpg" alt="Ray Onyango" class="rounded-image">
+        <img src="public/pip 1.jpeg" alt="Ray Onyango" class="rounded-image">
       </div>
       
       <div class="about-text">
